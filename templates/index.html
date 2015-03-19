@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TEDxPESITBSC</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="static/style.css" rel="stylesheet">
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="static/gmaps.js"></script>
+    <script type="text/javascript" src="static/main.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="page-header"><span style="font-weight:bold; color: rgba(230,43,30,1)">TEDx</span>PESIT<span style="color: #595959">BSC</span></h1>
+      <p class="sub-title">Book an Uber cab to attend <strong>TEDxPESITBSC</strong>. Click <em>Find Cars</em> to begin.</p>
+    </div>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="button-gp">
+        <button onclick="getLocation()" class="btns btn-lg"><i class="fa fa-location-arrow"></i> Find Cars</button>
+        <button onclick="refreshCars()" class="btns btn-lg"><i class="fa fa-refresh"></i> Refresh List</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+
+      <div id="info"></div>
+
+      <iframe style="display:none" height="0" width="0" id="loader"></iframe>
+
+      <div class="footer">
+        <p>A <a href="http://www.tedxpesitbsc.com">TEDxPESITBSC</a> product. Created by <a href="https://github.com/amjd">Amjad</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
