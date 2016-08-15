@@ -6,7 +6,7 @@ A small web app to find and book Uber cabs to attend TEDxPESITBSC. It was made f
 It launches Uber app with the trip details, if installed, otherwise opens the sign up page on Uber mobile site.
 
 ###Demo
-A demo of this is live at: [http://tedxcab.us.to](http://tedxcab.us.to)
+A demo of this is live at: [http://tdxcb.herokuapp.com](http://tdxcb.herokuapp.com)
 
 ###Usage
 Install dependencies
